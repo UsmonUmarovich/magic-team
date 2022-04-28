@@ -1,0 +1,166 @@
+@font-face{
+    font-family: 'Medium';
+    src: url(../Montserrat/Montserrat-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Bold';
+    src: url(../Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'Semi-Bold';
+    src: url(../Montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face{
+    font-family: 'Extra-Bold';
+    src: url(../Montserrat/Montserrat-ExtraBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+    border: none;
+    outline: none;
+    font-family: 'Medium';
+}
+
+body{
+    background-color: #252B42;
+    color: #fff;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    font-family: 'Bold';
+    margin-right: 80px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-item{
+    margin-right: 20px;
+    font-family: 'Medium';
+    font-size: 14px;
+    transition: 200ms;
+}
+
+.menu-item:hover{
+    color: #23A6F0;
+}
+
+.navbar-right{
+    font-size: 14px;
+    font-family: "Bold";
+}
+
+.login{
+    margin-right: 45px;
+    transition: 200ms;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+}
+
+.login:hover{
+    color: #23A6F0;
+}
+
+.header-info{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-info__title{
+    position: absolute;
+}
+
+.header-info__desc{
+    position: absolute;
+    top: 160px;
+}
+
+.header-box{
+    position: absolute;
+    top: 300px;
+    background-color: #fff;
+    width: 500px;
+    height: 300px;
+    left: 400px;
+    color: black;
+}
+
+.header-box__info1{
+    position: absolute;
+    top: 20px;
+    width: 400px;
+    height: 200px;
+    left: 30px;
+}
+
+.header-box__info-title1{
+    font-size: 20px;
+}
+
+.header-box__info-tel1{
+    font-size: 20px;
+}
+
+.header-box__info-tg1{
+    font-size: 20px;
+}
+
+.header-box__info2{
+    position: absolute;
+    top: 150px;
+    width: 400px;
+    height: 200px;
+    left: 30px;
+}
+
+.header-box__info-title2{
+    font-size: 20px;
+}
+
+.header-box__info-tel2{
+    font-size: 20px;
+}
+
+.header-box__info-tg2{
+    font-size: 20px;
+}
